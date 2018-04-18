@@ -1,8 +1,6 @@
 body {
     background-color: steelblue;
-}
-
-h1 {
-    background-color: silver;
-    color: slategrey;
+    color: black;
+    font-family: 'Menlo', sans-serif;
+    text-shadow: 1.5px -1px aliceblue;
 }

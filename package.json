@@ -1,0 +1,23 @@
+{
+  "name": "get-requests",
+  "version": "1.0.0",
+  "description": "get request and display 'Happy Wednesday!'",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkean/get-requests.git"
+  },
+  "author": "Nathan Kean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nkean/get-requests/issues"
+  },
+  "homepage": "https://github.com/nkean/get-requests#readme"
+}

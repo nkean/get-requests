@@ -2,12 +2,13 @@
   "name": "get-requests",
   "version": "1.0.0",
   "description": "get request and display 'Happy Wednesday!'",
-  "main": "index.js",
+  "main": "server/server.js",
   "dependencies": {
     "express": "^4.16.3"
   },
   "devDependencies": {},
   "scripts": {
+    "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

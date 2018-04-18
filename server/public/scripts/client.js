@@ -21,6 +21,6 @@ function changeQuote() {
         url: '/quote'
     })
     .then(function(response) {
-        console.log(response);
+        $('#displayQuote').text(response);
     });
 }

@@ -14,3 +14,13 @@ function onReady() {
 
     $('#newQuoteButton').on('click', changeQuote);
 }
+
+function changeQuote() {
+    $.ajax({
+        type: 'GET',
+        url: '/quote'
+    })
+    .then(function(response) {
+        console.log(response);
+    });
+}

@@ -4,7 +4,8 @@
   "description": "get request and display 'Happy Wednesday!'",
   "main": "server/server.js",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "jquery": "^3.3.1"
   },
   "devDependencies": {},
   "scripts": {

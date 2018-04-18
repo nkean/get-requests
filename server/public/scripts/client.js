@@ -8,11 +8,12 @@ function onReady() {
         type: 'GET',
         url: '/all-quotes'
     })
-    .then(function(response) {
-        console.log(response);
-    });
+        .then(function (response) {
+            console.log(response);
+        });
 
     $('#newQuoteButton').on('click', changeQuote);
+    listQuotes();
 }
 
 function changeQuote() {
@@ -20,7 +21,19 @@ function changeQuote() {
         type: 'GET',
         url: '/quote'
     })
-    .then(function(response) {
-        $('#displayQuote').text(response);
-    });
+        .then(function (response) {
+            $('#displayQuote').text(response);
+        });
+}
+
+function listQuotes() {
+    $.ajax({
+        type: 'GET',
+        url: '/all-quotes'
+    })
+        .then(function (response) {
+            response.forEach(object) {
+                $('#listOfQuotes').append(`<p>${object.quote}   ::: ${object.author} :::</p>`)
+            };
+        });
 }

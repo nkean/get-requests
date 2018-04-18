@@ -2,5 +2,12 @@ body {
     background-color: steelblue;
     color: black;
     font-family: 'Menlo', sans-serif;
+}
+
+h1 {
     text-shadow: 1.5px -1px aliceblue;
+}
+
+#listOfQuotes {
+    background-color: seagreen;
 }

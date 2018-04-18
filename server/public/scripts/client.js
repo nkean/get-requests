@@ -32,8 +32,8 @@ function listQuotes() {
         url: '/all-quotes'
     })
         .then(function (response) {
-            response.forEach(object) {
+            response.forEach((object) => {
                 $('#listOfQuotes').append(`<p>${object.quote}   ::: ${object.author} :::</p>`)
-            };
+            });
         });
 }
